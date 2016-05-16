@@ -1,4 +1,4 @@
-# [audiograph.xyz](http://audiograph.xyz/?cc)
+# [audiocraft](http://wcarss.ca/audiocraft)
 
 :radio:
 
@@ -6,7 +6,7 @@
 
 Uses WebGL, WebAudio and Dolby Digital Plus in supported browsers.
 
-[http://audiograph.xyz/](http://audiograph.xyz/?cc)
+[http://wcarss.ca/audiocraft](http://wcarss.ca/audiocraft)
 
 ## Screenshots
 
@@ -17,9 +17,14 @@ Uses WebGL, WebAudio and Dolby Digital Plus in supported browsers.
 ## Credits
 
 - Created by Matt DesLauriers ([@mattdesl](https://twitter.com/mattdesl))
+- Remixed by Wyatt Carss ([@wcarss](https://twitter.com/wcarss))
 - Audio by [Pilotpriest](https://pilotpriest.bandcamp.com/) (with permission)
 - Color palettes sourced from [ColourLovers.com](http://www.colourlovers.com/)
 - With UX help from Mélissa Hernandez ([@Mlissa_H](https://twitter.com/Mlissa_H))
+
+## Original
+
+- Original work [Audiograph](http://audiograph.xyz/?cc)
 
 ## License
 
