@@ -230,6 +230,35 @@ a:hover::after {
   background-image: url('./svg/musical-note.svg');
 }
 
+.player-controls-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.controls {
+  font-family: 'PierBold';
+  color: black;
+  position: relative;
+  display: inline-block;
+  top: 68%;
+  left: 46%;
+  font-size: 20px;
+  z-index: 10;
+  margin: auto;
+  padding: 0.2em 1em;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.controls, ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
 .spacebar {
   position: relative;
   z-index: 1;

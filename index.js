@@ -176,6 +176,7 @@ function setupScene ({ palettes, envMap }) {
   let readyForGeometry = newArray(audio.binCount, true);
   let readyForPaletteChange = false;
   let paletteInterval;
+  let controlsShown = false;
 
   const whitePalette = [ '#fff', '#d3d3d3', '#a5a5a5' ];
   const interactions = setupInteractions({ whitePalette, scene, controls, audio, camera, geo });
@@ -197,6 +198,17 @@ function setupScene ({ palettes, envMap }) {
   interactions.on('stop', () => {
     resetPaletteSwapping();
     readyForPaletteChange = false;
+  });
+
+  interactions.on('playerControls', () => {
+    const playerControls = document.querySelector('.player-controls-container');
+    if (controlsShown) {
+      playerControls.style.display = 'none';
+      controlsShown = false;
+    } else {
+      playerControls.style.display = 'block';
+      controlsShown = true;
+    }
   });
 
   // handle slow internet on first track
